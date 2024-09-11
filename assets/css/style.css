@@ -5,6 +5,7 @@
     font-family: "Kanit", sans-serif;
 }
 
+/* Imagem com texto ao lado */
 .imagem-texto {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -29,6 +30,9 @@
     text-align: center;
 }
 
+/* Imagem com texto ao lado */
+
+/* cards */
 .card-container {
     display: flex;
     justify-content: center;
@@ -93,6 +97,9 @@
     margin-top: 20px;
 }
 
+/* cards */
+
+/* Iframe video - noticias */
 .iframe-container {
     display: flex;
     justify-content: center;
@@ -101,6 +108,7 @@
     flex-direction: column;
 }
 
+/* Formulario */
 .form-container {
     display: flex;
     justify-content: center;
@@ -154,17 +162,14 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #ffffff;
-    color: #000000;
-    border-color: #000000;
-}
+/* Formulario */
 
+/* iframe-maps - contato */
 .iframe-maps {
     display: block;
     margin: 0 auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 1000px;
     margin-bottom: 10px;
 }
 
@@ -177,4 +182,25 @@ footer {
     background-color: #000000;
     color: rgb(255, 255, 255);
     margin-top: 40px;
+}
+
+@media (max-width: 700px) {
+    .imagem-texto {
+        display: block;
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .text {
+        width: 100%;
+        margin-top: 10px;
+    }
+   .text p{
+    font-size: 15px;
+
+    }
 }
