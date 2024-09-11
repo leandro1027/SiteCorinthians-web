@@ -92,6 +92,22 @@
     padding: 50px;
     margin-top: 20px;
 }
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.iframe-texto {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    align-items: center;
+}
 
 
 footer {
