@@ -266,5 +266,11 @@ footer {
         font-size: 15px;
 
     }
+    .iframe-container {
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        flex-direction: column;
+    }
 }
 /* Formulario */
