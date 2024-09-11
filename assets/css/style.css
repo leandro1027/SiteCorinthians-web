@@ -163,7 +163,8 @@ button:hover {
 .iframe-maps {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
     margin-bottom: 10px;
 }
 
